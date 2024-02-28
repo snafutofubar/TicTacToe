@@ -30,9 +30,9 @@ public class TicTacToe {
 
         while (id < dimension)
         {
-            System.out.println("Please Enter New Player Name");
+            System.out.println("Please enter New Player Name");
             String name = sc.nextLine();
-            System.out.println("Please Enter New Player Symbol");
+            System.out.println("Please enter New Player Symbol");
             char symbol = sc.next().charAt(0);
             players.add(gameController.getPlayer(id++, symbol, name));
         }
